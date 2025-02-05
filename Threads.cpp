@@ -4,7 +4,7 @@
 
 void I_Love_Threads()
 {
-	std::cout << "I love threads" << std::endl;
+	std::cout << "I Love Threads" << std::endl;
 }
 
 void call_I_Love_Threads()
@@ -37,7 +37,7 @@ void getPrimes(const int begin, const int end, std::vector<int>& primes)
 				break;
 			}
 		}
-		if (isPrime)
+		if (isPrime && i != 1)
 		{
 			primes.push_back(i);
 		}
